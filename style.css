@@ -292,3 +292,60 @@ section#service div.container div.common div.overlay button {
     cursor: pointer;
 
 }
+
+section#reviews {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+section#reviews h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section#reviews div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+section#reviews div.container div.common {
+    width: 20%;
+    padding: 0 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+section#reviews div.container div.common h4{
+    margin: 8px 0;
+}
+section#reviews div.container div.common span{
+    color: rgb(117, 106, 106);
+    height: 100px;
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+section#reviews div.container div.common div.stars img {
+    height: 20px;
+    width: 20px;
+    margin: 8px 0;
+}
+
+section#reviews div.container div.common-arrow {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+section#reviews div.container img.arrows {
+    height: 50px;
+    width: 50px;
+}
+
