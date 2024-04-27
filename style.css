@@ -43,6 +43,7 @@
 }
 
 #header-bottom div.top ul li {
+
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 16px;
@@ -56,7 +57,7 @@
     margin-right: 14px;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #header-bottom div.bottom div.list label:first-child {
@@ -340,7 +341,7 @@ section#reviews div.container div.common div.stars img {
 }
 
 section#reviews div.container div.common-arrow {
-
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -362,7 +363,7 @@ section#newsletter div.container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 
 }
 
@@ -394,20 +395,20 @@ section#newsletter div.container div.form div.items input {
     height: 30px;
     border: none;
     padding-left: 20px;
-     
+
 }
 
 
 section#newsletter div.container div.form div.items div {
     color: #fff;
-    
+
 }
 
 
 
 section#newsletter h4 {
-    padding: 30px 0;
-
+    padding: 50px 0;
+    font-size: 30px;
     text-align: center;
 
 }
@@ -415,5 +416,31 @@ section#newsletter h4 {
 section#newsletter img.arrow {
     height: 20px;
     width: 30px;
+
 }
 
+footer {
+    background: #000;
+    color: #fff;
+}
+
+footer div.container {
+    display: flex;
+    padding: 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+footer div.container ul li {
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+footer div.container ul li.social {
+    display: flex;
+    align-items: center;
+
+
+}
