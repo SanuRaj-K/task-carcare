@@ -181,6 +181,11 @@ section#landing div.right div.list {
     margin-bottom: 50px;
 }
 
+section#bottom {
+    width: 80vw;
+    margin: 0 auto;
+}
+
 div#thumbnail {
     position: relative;
     height: 70vh;
@@ -214,6 +219,76 @@ div#thumbnail div.content {
     z-index: 1;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+
+}
+
+section#service {
+    margin-bottom: 30px;
+}
+
+section#service div.container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+section#service div.container div.common:first-child {
+    background-image: url(./task-files/service-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section#service div.container div.common:nth-child(2) {
+    background-image: url(./task-files/service-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#service div.container div.common:last-child {
+    background-image: url(./task-files/service-img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#service div.container div.common {
+    height: 300px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+section#service div.container div.common div.overlay div.line {
+    background: red;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 8px;
+}
+
+section#service div.container div.common div.overlay {
+    color: #fff;
+    width: 80%;
+    margin-bottom: 20px;
+
+
+}
+
+section#service div.container div.common div.overlay p {
+    height: 30px;
+    font-size: 12px;
+    color: rgb(181, 167, 167);
+}
+
+section#service div.container div.common div.overlay h4 {
+    text-transform: uppercase;
+}
+
+section#service div.container div.common div.overlay button {
+    padding: 4px 8px;
+    margin-top: 8px;
     cursor: pointer;
 
 }
